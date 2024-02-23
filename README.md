@@ -26,3 +26,14 @@ To confirm that the environment was created correctly, run:
 ```commandline
 coverage run -m unittest discover
 ```
+
+## Running as a Conda Package
+To run as a package, download and install Conda as instructed above if you haven't
+already. Then, run the following command to download and install the package:
+```commandline
+conda install spkelle2::diet
+```
+To confirm that the package installed correctly, run:
+```commandline
+python -m diet -i /path/to/diet_sample_data -o /path/to/diet_sample_solution
+```

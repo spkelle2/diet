@@ -5,7 +5,10 @@ channels:
   - gurobi
   - ticdat
 dependencies:
+  - anaconda-client
+  - conda-build
   - coverage
+  - grayskull
   - gurobi=10
   - jupyter
   - python
