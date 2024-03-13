@@ -12,7 +12,8 @@ Together, they include:
 * Automating installation for:
   * Running in development
   * Running as a Conda package
-  * Running as a Docker container
+  * Running behind a web service in a Docker container
+
 For information, see the companion medium article. 
 
 ## Running in Development
