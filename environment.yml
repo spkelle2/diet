@@ -8,8 +8,10 @@ dependencies:
   - anaconda-client
   - conda-build
   - coverage
+  - flask
   - grayskull
-  - gurobi=10
+  - gunicorn
+  - gurobi
   - jupyter
   - python
   - ticdat

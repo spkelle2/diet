@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python
-    - gurobi::gurobi=10
+    - gurobi::gurobi
     - ticdat::ticdat
 
 test:

@@ -14,7 +14,7 @@ Together, they include:
   * Running as a Conda package
   * Running behind a web service in a Docker container
 
-For information, see the companion medium article. 
+For more information, see the companion medium article. 
 
 ## Running in Development
 If Conda is not already installed on your machine, go [here](https://docs.conda.io/projects/miniconda/en/latest/)
@@ -37,4 +37,15 @@ conda install spkelle2::diet
 To confirm that the package installed correctly, run:
 ```commandline
 python -m diet -i /path/to/diet_sample_data -o /path/to/diet_sample_solution
+```
+
+## Running behind a web service in a Docker container
+To run as a Docker container, run the following commands from this project's root directory:
+```commandline
+docker build --no-cache -t diet:1.0.0 .
+docker run -p 8080:8080 diet:1.0.0
+```
+To confirm the container works as expected run:
+```commandline
+curl -X POST -H "content-type:application/json" -d @examples/diet_sample_data.json http://localhost:8080
 ```
