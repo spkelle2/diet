@@ -1,0 +1,244 @@
+{
+  "categories": [
+    {
+      "Max Nutrition": 300.0,
+      "Min Nutrition": 91.0,
+      "Name": "protein"
+    },
+    {
+      "Max Nutrition": 2200.0,
+      "Min Nutrition": 1800.0,
+      "Name": "calories"
+    },
+    {
+      "Max Nutrition": 65.0,
+      "Min Nutrition": 0.0,
+      "Name": "fat"
+    },
+    {
+      "Max Nutrition": 1779.0,
+      "Min Nutrition": 0.0,
+      "Name": "sodium"
+    }
+  ],
+  "foods": [
+    {
+      "Cost": 2.49,
+      "Name": "hamburger"
+    },
+    {
+      "Cost": 2.49,
+      "Name": "salad"
+    },
+    {
+      "Cost": 1.5,
+      "Name": "hot dog"
+    },
+    {
+      "Cost": 1.89,
+      "Name": "fries"
+    },
+    {
+      "Cost": 2.09,
+      "Name": "macaroni"
+    },
+    {
+      "Cost": 2.89,
+      "Name": "chicken"
+    },
+    {
+      "Cost": 0.89,
+      "Name": "milk"
+    },
+    {
+      "Cost": 1.59,
+      "Name": "ice cream"
+    },
+    {
+      "Cost": 1.99,
+      "Name": "pizza"
+    }
+  ],
+  "nutrition_quantities": [
+    {
+      "Category": "protein",
+      "Food": "ice cream",
+      "Quantity": 8.0
+    },
+    {
+      "Category": "fat",
+      "Food": "ice cream",
+      "Quantity": 10.0
+    },
+    {
+      "Category": "sodium",
+      "Food": "fries",
+      "Quantity": 270.0
+    },
+    {
+      "Category": "calories",
+      "Food": "fries",
+      "Quantity": 380.0
+    },
+    {
+      "Category": "fat",
+      "Food": "hamburger",
+      "Quantity": 26.0
+    },
+    {
+      "Category": "sodium",
+      "Food": "macaroni",
+      "Quantity": 930.0
+    },
+    {
+      "Category": "sodium",
+      "Food": "hot dog",
+      "Quantity": 1800.0
+    },
+    {
+      "Category": "sodium",
+      "Food": "chicken",
+      "Quantity": 1190.0
+    },
+    {
+      "Category": "calories",
+      "Food": "salad",
+      "Quantity": 320.0
+    },
+    {
+      "Category": "calories",
+      "Food": "ice cream",
+      "Quantity": 330.0
+    },
+    {
+      "Category": "sodium",
+      "Food": "milk",
+      "Quantity": 125.0
+    },
+    {
+      "Category": "sodium",
+      "Food": "salad",
+      "Quantity": 1230.0
+    },
+    {
+      "Category": "sodium",
+      "Food": "pizza",
+      "Quantity": 820.0
+    },
+    {
+      "Category": "protein",
+      "Food": "pizza",
+      "Quantity": 15.0
+    },
+    {
+      "Category": "calories",
+      "Food": "pizza",
+      "Quantity": 320.0
+    },
+    {
+      "Category": "calories",
+      "Food": "hamburger",
+      "Quantity": 410.0
+    },
+    {
+      "Category": "fat",
+      "Food": "milk",
+      "Quantity": 2.5
+    },
+    {
+      "Category": "protein",
+      "Food": "salad",
+      "Quantity": 31.0
+    },
+    {
+      "Category": "protein",
+      "Food": "milk",
+      "Quantity": 8.0
+    },
+    {
+      "Category": "fat",
+      "Food": "macaroni",
+      "Quantity": 10.0
+    },
+    {
+      "Category": "fat",
+      "Food": "salad",
+      "Quantity": 12.0
+    },
+    {
+      "Category": "fat",
+      "Food": "hot dog",
+      "Quantity": 32.0
+    },
+    {
+      "Category": "fat",
+      "Food": "chicken",
+      "Quantity": 10.0
+    },
+    {
+      "Category": "protein",
+      "Food": "chicken",
+      "Quantity": 32.0
+    },
+    {
+      "Category": "protein",
+      "Food": "fries",
+      "Quantity": 4.0
+    },
+    {
+      "Category": "fat",
+      "Food": "pizza",
+      "Quantity": 12.0
+    },
+    {
+      "Category": "calories",
+      "Food": "milk",
+      "Quantity": 100.0
+    },
+    {
+      "Category": "sodium",
+      "Food": "ice cream",
+      "Quantity": 180.0
+    },
+    {
+      "Category": "calories",
+      "Food": "chicken",
+      "Quantity": 420.0
+    },
+    {
+      "Category": "sodium",
+      "Food": "hamburger",
+      "Quantity": 730.0
+    },
+    {
+      "Category": "calories",
+      "Food": "macaroni",
+      "Quantity": 320.0
+    },
+    {
+      "Category": "fat",
+      "Food": "fries",
+      "Quantity": 19.0
+    },
+    {
+      "Category": "calories",
+      "Food": "hot dog",
+      "Quantity": 560.0
+    },
+    {
+      "Category": "protein",
+      "Food": "hot dog",
+      "Quantity": 20.0
+    },
+    {
+      "Category": "protein",
+      "Food": "macaroni",
+      "Quantity": 12.0
+    },
+    {
+      "Category": "protein",
+      "Food": "hamburger",
+      "Quantity": 24.0
+    }
+  ]
+}

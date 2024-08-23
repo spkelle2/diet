@@ -1,0 +1,43 @@
+# created the skeleton with "grayskull pypi dist/diet-1.0.0.tar.gz"
+# then manually edited the file to add the gurobi and ticdat dependencies
+
+package:
+  name: "diet"
+  # todo: update version with each release
+  version: "1.0.0"
+
+source:
+  # todo: update location of source distribution with each release
+  url: file:///Users/sean/Documents/school/phd/research/diet/dist/diet-1.0.0.tar.gz
+  # todo: replace sha256 with output of this command: openssl sha256 dist/diet_<version>.tar.gz | cut -d " " -f2
+  sha256: 5f7807135e467f02fe6f2b6e486b70e1845a1bf89f1b0c49e1b3b2b43138b91a
+
+build:
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 0
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    - gurobi::gurobi
+    - ticdat::ticdat
+
+test:
+  imports:
+    - diet
+  commands:
+    - pip check
+  requires:
+    - pip
+
+about:
+  license: GPL-3.0
+  license_file: LICENSE
+
+extra:
+  recipe-maintainers:
+    - seansfkelley
