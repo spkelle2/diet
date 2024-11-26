@@ -14,7 +14,7 @@ Together, they include:
   * Running as a Conda package
   * Running behind a web service in a Docker container
 
-For more information, see the companion medium article. 
+For more information, see the companion [medium article](https://medium.com/@shannon-optimizes/how-to-develop-data-science-projects-for-production-deployments-8a17f4b59f24). 
 
 ## Running in Development
 If Conda is not already installed on your machine, go [here](https://docs.conda.io/projects/miniconda/en/latest/)
